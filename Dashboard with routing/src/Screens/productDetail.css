@@ -1,0 +1,34 @@
+div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: auto;
+  }
+  
+  div img {
+    display: block;
+    max-width: 100%;
+    height: 400px;
+    margin: 20px 0;
+    margin: auto;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  div .price {
+    font-size: 1.5rem;
+    color: #273fcc;
+    margin: 10px 0;
+  }
+  .rating {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    color: purple;
+  }
+  

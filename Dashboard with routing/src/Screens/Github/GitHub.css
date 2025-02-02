@@ -1,0 +1,79 @@
+.github-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.search-button {
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-button:hover {
+  background: #0056b3;
+}
+.user-card {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.user-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.user-bio,
+.user-repos,
+.user-followers {
+  font-size: 14px;
+  margin: 5px 0;
+}
+.github-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+.github-link:hover {
+  text-decoration: underline;
+}
+.error-text {
+  color: red;
+  font-weight: bold;
+}
+.back-button {
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  background: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
